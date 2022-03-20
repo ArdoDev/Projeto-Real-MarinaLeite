@@ -1,0 +1,76 @@
+/*fontes*/
+
+@font-face {
+    font-family: principal;
+    src: url(/_fonts/GothamLight.ttf);
+    font-family: caminhos;
+    src: url(/_fonts/GothamBold.ttf);
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.705);
+    background-image: url(/_imagens/Fundo-Foto.png);
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-left: 390px;
+    margin-top: 200px;
+}
+
+nav {
+    margin: 15px;
+    padding-top: 20px;
+}
+
+a.leg {
+    font-family: caminhos;
+    font-size: 25px;
+    color: white;
+    margin-left: 170px;
+    text-decoration: none;
+}
+
+a.eng {
+    font-family: caminhos;
+    font-size: 25px;
+    color: white;
+    margin-left: 172px;
+}
+
+li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+li:hover {
+    transform: scale(1.2);
+    transition: all 0.6s ease-in-out;
+}
+
+a.leg:hover {
+    transform: scale(1.2);
+    transition: all 0.6s ease-in-out;
+    text-shadow: 2px 2px 2px rgb(174, 112, 255);
+}
+
+a.eng:hover {
+    transform: scale(1.2);
+    transition: all 0.6s ease-in-out;
+    text-shadow: 2px 2px 2px rgb(103, 189, 182);
+}
+
+.barra {
+    margin-left: 390px;
+}
+
+.icones {
+    padding-top: 15px;
+    margin-left: 540px;
+}
+
+.icones img {
+    padding: 15px;
+    align-items: center;
+}
