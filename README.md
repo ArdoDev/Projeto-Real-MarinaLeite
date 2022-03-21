@@ -15,5 +15,3 @@
 
 <p>Caso tenha alguma dúvida ou queira entrar em contato vou deixar aqui o link do meu Linkedin:https://www.linkedin.com/in/eduardo-leite-78620b1a3/ </p>
 
-# projeto-site-marina
-
