@@ -7,6 +7,7 @@
     src: url(/_fonts/GothamBold.ttf);
 }
 
+/*corpo do site*/
 body {
     background-color: rgba(0, 0, 0, 0.705);
     background-image: url(/_imagens/Fundo-Foto.png);
@@ -19,6 +20,7 @@ body {
     margin-top: 200px;
 }
 
+/*Menu inicial*/
 nav {
     margin: 15px;
     padding-top: 20px;
@@ -37,6 +39,7 @@ a.eng {
     font-size: 25px;
     color: white;
     margin-left: 172px;
+    text-decoration: none;
 }
 
 li {
@@ -65,6 +68,7 @@ a.eng:hover {
     margin-left: 390px;
 }
 
+/*redes*/
 .icones {
     padding-top: 15px;
     margin-left: 540px;
