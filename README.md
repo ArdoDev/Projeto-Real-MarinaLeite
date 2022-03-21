@@ -11,7 +11,7 @@
 
 ## Sobre o Projeto
 
-<p>Este é um projeto aberto desenvolvido como desafio utilizando o meu aprendizado do curso de HTML, CSS e Javascript da plataforma Curso em Vídeo.</p>
+<p>O projeto foi realizado para uma figura pública do municipio de Aurora-CE, Marila Leite, vereadora e presidenta da Câmara Municipal de Aurora (2021-2024).</p>
 
 <p>Caso tenha alguma dúvida ou queira entrar em contato vou deixar aqui o link do meu Linkedin:https://www.linkedin.com/in/eduardo-leite-78620b1a3/ </p>
 
