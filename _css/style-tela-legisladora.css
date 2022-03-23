@@ -1,0 +1,50 @@
+@font-face {
+    font-family: principal;
+    src: url(/_fonts/GothamLight.ttf);
+    font-family: caminhos;
+    src: url(/_fonts/GothamBold.ttf);
+    font-family: gothamblack;
+    src: url(/_fonts/Gotham-Black.otf);
+}
+
+*{
+    padding: 0px;
+margin: 0px;
+overflow-x: hidden;
+}
+
+header{
+    color: rgb(121, 51, 187);
+}
+
+p.cabecalho{
+    font-size: 40pt;
+    font-family: gothamblack;
+    text-align: center;
+    color: white;
+    background-color: rgb(148, 76, 154);
+    padding: 20px;
+}
+
+
+.icone-lema{
+    top: 20px;
+}
+
+.fundo{
+    padding-top: 0;
+    position: relative;
+    background-image: url(/_imagens/background-lema.png);
+    width: 1580px;
+    background-repeat: no-repeat;
+
+}
+
+.igreja{
+    font-size: 40pt;
+    font-family: gothamblack;
+    text-align: center;
+    color: white;
+    background-image: url(/_imagens/igreja.png);
+    padding: 200px;
+}
