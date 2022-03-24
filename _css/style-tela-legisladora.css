@@ -48,3 +48,77 @@ p.cabecalho{
     background-image: url(/_imagens/igreja.png);
     padding: 200px;
 }
+
+.projeto p{
+    margin-top: 50px;
+    margin-right: 185px;
+    font-size: 50px;
+    font-family: gothamblack;
+}
+.projeto{
+
+    text-align: center;
+    color: white;
+    background-image: url(/_imagens/div-projeto.jpg);
+    padding: 200px;
+}
+
+section p{
+    font-size: 60px;
+    font-family: gothamblack;
+    color: rgb(148, 76, 154);
+    padding-left: 40px;
+    padding-top: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+ul#fotos {
+    margin: 5px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#fotos li {
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    color: rgb(201, 201, 201);
+    border-radius: 5px;
+    background-color: black;
+    padding: 5px;
+}
+
+
+
+ul#fotos li#foto1 {
+    background: url("/_imagens/foto-1.png") no-repeat;
+    
+}
+
+ul#fotos li#foto2 {
+    background: url("/_imagens/foto-1.png") no-repeat;
+}
+
+ul#fotos li#foto3 {
+    background: url("/_imagens/foto-1.png") no-repeat;
+}
+
+ul#fotos li#foto4 {
+    background: url("/_imagens/foto-1.png") no-repeat;
+}
+
+ul#fotos li#foto5 {
+    background: url("/_imagens/foto-1.png") no-repeat;
+}
+
+ul#fotos li#foto6 {
+    background: url("")no-repeat;
+}
