@@ -9,8 +9,8 @@
 
 *{
     padding: 0px;
-margin: 0px;
-overflow-x: hidden;
+    margin: 0px;
+    overflow-x: hidden;
 }
 
 header{
@@ -69,6 +69,7 @@ section p{
     color: rgb(148, 76, 154);
     padding-left: 40px;
     padding-top: 20px;
+    padding-bottom: 20px;
     
 }
 
@@ -80,15 +81,15 @@ a{
 
 
 ul#fotos {
-    margin: 5px;
+    margin-left: 20px;
     overflow: hidden;
     list-style: none;
 }
 
 ul#fotos li {
     float: left;
-    width: 500px;
-    height: 300px;
+    width: 620px;
+    height: 390px;
     margin: 10px;
     color: rgb(201, 201, 201);
     border-radius: 5px;
@@ -120,5 +121,32 @@ ul#fotos li#foto5 {
 }
 
 ul#fotos li#foto6 {
-    background: url("")no-repeat;
+    background: url("/_imagens/foto-1.png") no-repeat;
+}
+
+.redes{
+    background-color: rgb(148, 76, 154); ;
+    text-align: center;
+    padding: 50px;
+}
+
+.icones a{
+    padding: 5px;
+}
+
+.icones{
+    overflow: hidden;
+
+}
+
+footer p{
+    font-family: principal;
+    color: white;
+}
+
+footer .dev{
+    background-color: rgb(194, 146, 240);
+}
+footer .dev p{
+    color: black;
 }
