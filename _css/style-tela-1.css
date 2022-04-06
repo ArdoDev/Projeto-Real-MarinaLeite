@@ -4,25 +4,24 @@
     font-family: principal;
     src: url(/_fonts/GothamLight.ttf);
     font-family: caminhos;
-    src: url(/_fonts/GothamBold.ttf);
+    src: url(/_fonts/Gotham-Black.otf);
 }
-
+@media (min-width: 1024px){
 /*corpo do site*/
 body {
     background-color: rgba(0, 0, 0, 0.705);
     background-image: url(/_imagens/Fundo-Foto.png);
-    position: absolute;
+    position: relative;
     background-repeat: no-repeat;
 }
 
 .container {
     margin-left: 390px;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 /*Menu inicial*/
 nav {
-    margin: 15px;
     padding-top: 20px;
 }
 
@@ -71,10 +70,11 @@ a.eng:hover {
 /*redes*/
 .icones {
     padding-top: 15px;
-    margin-left: 540px;
+    margin-left: 490px;
 }
 
 .icones img {
     padding: 15px;
     align-items: center;
+}
 }
