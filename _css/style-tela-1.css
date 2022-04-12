@@ -6,18 +6,21 @@
     font-family: caminhos;
     src: url(/_fonts/Gotham-Black.otf);
 }
-@media (min-width: 1024px){
+
 /*corpo do site*/
+
 body {
     background-color: rgba(0, 0, 0, 0.705);
-    background-image: url(/_imagens/Fundo-Foto.png);
-    position: relative;
+    background-image: url(/_imagens/Fundo-Foto.png) !important;
     background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    padding-bottom: 110px;
 }
 
 .container {
-    margin-left: 390px;
-    margin-top: 140px;
+    margin-left: 380px;
+    margin-top: 150px;
 }
 
 /*Menu inicial*/
@@ -27,17 +30,17 @@ nav {
 
 a.leg {
     font-family: caminhos;
-    font-size: 25px;
+    font-size: 35px;
     color: white;
-    margin-left: 170px;
+    margin-left: 140px;
     text-decoration: none;
 }
 
 a.eng {
     font-family: caminhos;
-    font-size: 25px;
+    font-size: 35px;
     color: white;
-    margin-left: 172px;
+    margin-left: 140px;
     text-decoration: none;
 }
 
@@ -47,20 +50,27 @@ li {
 }
 
 li:hover {
-    transform: scale(1.2);
-    transition: all 0.6s ease-in-out;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    padding-left: 5px;
+
 }
 
 a.leg:hover {
     transform: scale(1.2);
-    transition: all 0.6s ease-in-out;
-    text-shadow: 2px 2px 2px rgb(174, 112, 255);
+    transition: all 0.3s ease-in-out;
+    text-shadow: 3px 3px 3px rgb(174, 112, 255);
+    align-items: center;
+    padding-left: 5px;
+
 }
 
 a.eng:hover {
     transform: scale(1.2);
-    transition: all 0.6s ease-in-out;
-    text-shadow: 2px 2px 2px rgb(103, 189, 182);
+    transition: all 0.3s ease-in-out;
+    text-shadow: 3px 3px 3px rgb(103, 189, 182);
+    padding-left: 5px;
 }
 
 .barra {
@@ -77,4 +87,15 @@ a.eng:hover {
     padding: 15px;
     align-items: center;
 }
+
+
+@media (min-width: 425px){
+    
+    body {
+        background-color: rgba(0, 0, 0, 0.705);
+        background-image: url(/_imagens/foto-fundo-cell.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+    }
 }
