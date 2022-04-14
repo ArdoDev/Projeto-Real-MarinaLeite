@@ -7,8 +7,7 @@
     src: url(/_fonts/Gotham-Black.otf);
 }
 
-@media (min-width: 425px) {
-
+@media (min-width: 320px) {
     body {
         background-color: rgba(0, 0, 0, 0.705);
         background-image: url(/_imagens/foto-fundo-cell.png);
@@ -17,11 +16,18 @@
         overflow: hidden;
         width: 100%;
         padding-top: 100px;
-    }
+        padding-bottom: 780px;    
+}
 
+.global{
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 500px;
+    position:absolute;
+}
     .container {
         margin-left: 180px;
-        margin-top: 380px;
+
     }
 
     /*Menu inicial*/
@@ -100,12 +106,18 @@
         background-repeat: no-repeat;
         background-position: center;
         overflow: hidden;
-        padding-bottom: 110px;
+        padding-bottom: 90px;
     }
+    .global{
+        align-items: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        position:relative;
 
+    }
     .container {
         margin-left: 380px;
-        margin-top: 150px;
+        margin-top: 60px;
     }
 
     /*Menu inicial*/
@@ -171,5 +183,6 @@
     .icones img {
         padding: 15px;
         align-items: center;
+        width: 80px;
     }
 }

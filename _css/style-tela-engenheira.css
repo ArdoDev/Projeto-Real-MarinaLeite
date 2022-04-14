@@ -16,7 +16,7 @@
 body {
     background-image: url("");
 }
-
+/*cabeçalho*/
 @media (min-width: 768px) {
     header {
         background-image: url(/_imagens/cabecalho-mobile2.png);
@@ -24,6 +24,7 @@ body {
         position: relative;
     }
 
+/*botão voltar*/
     .botaovoltar {
         position: fixed;
         width: 100px;
@@ -38,11 +39,14 @@ body {
         background-image: url(/_imagens/botaovoltar2.png);
     }
 
+/*icones voltar*/
     .icones {
         float: right;
         margin-top: 250px;
         margin-right: 100px;
     }
+
+/*texto superior principal*/
 
     .main-texto {
         width: 500px;
@@ -52,10 +56,14 @@ body {
         color: rgb(43, 138, 125);
     }
 
+/*texto dos paragrafos*/
+
     p {
         font-family: principal;
         font-size: 70px;
     }
+
+/*banner com foto*/
 
     .main-geral {
         background-image: url("/_imagens/marinabannereng.png");
@@ -70,13 +78,12 @@ body {
 
     .fotos {
         padding-top: 50px;
-        padding-bottom:480px;
-    }
-
+        margin-bottom: 52px;
+        position: absolute;
+}
     .fotos img {
         align-items: center;
         display: flex;
-        margin: 10px;
         width: 400px;
         border-radius: 15px;
         float: left;
@@ -86,18 +93,22 @@ body {
 
     .fotos p {
         color: rgb(43, 138, 125);
-        margin-left: 20px;
+        margin-left: 320px;
     }
 
+    footer{
+        padding-top: 980px;
+
+    }
     footer p{
        font-family:fontfooter ; 
        text-align: center;
-       font-size: 12pt;
+       font-size: 10pt;
        letter-spacing: 3px;
-       color: rgb(18, 99, 88);;
-       padding-bottom: 25px;
+       color: rgb(18, 99, 88);
 }
 
+}
 @media (min-width: 1024px) {
 
     .botaovoltar {
@@ -137,5 +148,16 @@ body {
         margin-left: 10px;
     }
 
-}
+    .fotos p {
+        color: rgb(43, 138, 125);
+        margin-left: 30px;
+    }
+
+    footer{
+        padding-top: 610px;
+        padding-bottom: 35px;
+
+    }
+
+
 }

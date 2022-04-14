@@ -308,8 +308,7 @@
     /*terceira divisão do site*/
 
     .projeto img {
-        padding: rgb(148, 76, 154);
-        ;
+        padding: rgb(148, 76, 154);;
         overflow: hidden;
     }
 
@@ -382,7 +381,7 @@
     .estilizacao {
         display: block;
         list-style: none;
-        margin-left: 15px;
+        margin-left: 40px;
     }
 
     .estilizacao li {
@@ -487,6 +486,7 @@
         color: rgb(113, 0, 141);
         text-align: center;
         padding: 20px;
+        font-size: 13px;
     }
 
 }
