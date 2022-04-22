@@ -3,8 +3,11 @@
 @font-face {
     font-family: principal;
     src: url(/_fonts/GothamLight.ttf);
+}
+
+@font-face {
     font-family: caminhos;
-    src: url(/_fonts/Gotham-Black.otf);
+    src: url(/_fonts/GothamBook.ttf);
 }
 
 @media (min-width: 320px) {
@@ -67,7 +70,7 @@
     a.leg:hover {
         transform: scale(1.2);
         transition: all 0.3s ease-in-out;
-        text-shadow: 3px 3px 3px rgb(174, 112, 255);
+        text-shadow: 3px 3px 1px rgb(174, 112, 255);
         align-items: center;
         padding-left: 5px;
 
@@ -117,9 +120,15 @@
     }
     .container {
         margin-left: 380px;
-        margin-top: 60px;
+        margin-top: 0px;
     }
 
+    .container img {
+        margin-left: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
     /*Menu inicial*/
     nav {
         padding-top: 20px;
@@ -127,17 +136,25 @@
 
     a.leg {
         font-family: caminhos;
-        font-size: 35px;
+        font-size: 25px;
         color: white;
-        margin-left: 140px;
+        margin-left: 160px;
         text-decoration: none;
     }
 
     a.eng {
         font-family: caminhos;
-        font-size: 35px;
+        font-size: 25px;
         color: white;
-        margin-left: 140px;
+        margin-left: 160px;
+        text-decoration: none;
+    }
+
+    a.cam {
+        font-family: caminhos;
+        font-size: 25px;
+        color: white;
+        margin-left: 110px;
         text-decoration: none;
     }
 
@@ -147,7 +164,7 @@
     }
 
     li:hover {
-        transform: scale(1.05);
+        transform: scale(1.04);
         transition: all 0.5s ease-in-out;
         align-items: center;
         padding-left: 5px;
@@ -155,18 +172,25 @@
     }
 
     a.leg:hover {
-        transform: scale(1.2);
+        transform: scale(1.0);
         transition: all 0.3s ease-in-out;
-        text-shadow: 3px 3px 3px rgb(174, 112, 255);
+        text-shadow: 1px 1px 2px rgb(174, 112, 255);
         align-items: center;
         padding-left: 5px;
 
     }
 
     a.eng:hover {
-        transform: scale(1.2);
+        transform: scale(1.0);
         transition: all 0.3s ease-in-out;
-        text-shadow: 3px 3px 3px rgb(103, 189, 182);
+        text-shadow: 1px 1px 2px rgb(103, 189, 182);
+        padding-left: 5px;
+    }
+
+    a.cam:hover {
+        transform: scale(1.0);
+        transition: all 0.3s ease-in-out;
+        text-shadow: 1px 1px 2px rgb(103, 189, 182);
         padding-left: 5px;
     }
 
@@ -177,12 +201,17 @@
     /*redes*/
     .icones {
         padding-top: 15px;
-        margin-left: 490px;
+        margin-left: 550px;
     }
 
     .icones img {
         padding: 15px;
         align-items: center;
-        width: 80px;
+        width: 35px;
     }
+
+    .icones img:hover {
+        transition: all 0.3s ease-in-out;
+        padding-bottom: 11px;  
+          }
 }
