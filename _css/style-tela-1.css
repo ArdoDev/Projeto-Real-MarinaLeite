@@ -2,18 +2,18 @@
 
 @font-face {
     font-family: principal;
-    src: url(/_fonts/GothamLight.ttf);
+    src: url(../_fonts/GothamLight.ttf);
 }
 
 @font-face {
     font-family: caminhos;
-    src: url(/_fonts/GothamBook.ttf);
+    src: url(../_fonts/GothamBook.ttf);
 }
 
 @media (min-width: 320px) {
     body {
         background-color: rgba(0, 0, 0, 0.705);
-        background-image: url(/_imagens/foto-fundo-cell.png);
+        background-image: url(../_imagens/foto-fundo-cell.png);
         background-repeat: no-repeat;
         background-position: center;
         overflow: hidden;
@@ -27,11 +27,27 @@
     margin-bottom: 10px;
     margin-top: 500px;
     position:absolute;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-    .container {
-        margin-left: 180px;
 
-    }
+.container{
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
 
     /*Menu inicial*/
     nav {
@@ -40,18 +56,10 @@
 
     a.leg {
         font-family: caminhos;
-        font-size: 75px;
+        font-size: 42px;
         color: white;
-        margin-left: 25px;
         text-decoration: none;
-    }
-
-    a.eng {
-        font-family: caminhos;
-        font-size: 75px;
-        color: white;
-        margin-left: 25px;
-        text-decoration: none;
+        font-weight: bold;
     }
 
     li {
@@ -63,8 +71,6 @@
         transform: scale(1.05);
         transition: all 0.5s ease-in-out;
         align-items: center;
-        padding-left: 5px;
-
     }
 
     a.leg:hover {
@@ -72,29 +78,15 @@
         transition: all 0.3s ease-in-out;
         text-shadow: 3px 3px 1px rgb(174, 112, 255);
         align-items: center;
-        padding-left: 5px;
-
-    }
-
-    a.eng:hover {
-        transform: scale(1.2);
-        transition: all 0.3s ease-in-out;
-        text-shadow: 3px 3px 3px rgb(103, 189, 182);
-        padding-left: 5px;
-    }
-
-    .barra {
-        margin-left: 180px;
     }
 
     /*redes*/
     .icones {
         padding-top: 15px;
-        margin-left: 250px;
     }
 
     .icones img {
-        width: 120px;
+        width: 80px;
         padding: 10px;
         align-items: center;
     }
@@ -105,7 +97,7 @@
     /*corpo do site*/
     body {
         background-color: rgba(0, 0, 0, 0.705);
-        background-image: url(/_imagens/Fundo-Foto.png);
+        background-image: url(../_imagens/Fundo-Foto.png);
         background-repeat: no-repeat;
         background-position: center;
         overflow: hidden;
@@ -117,16 +109,20 @@
         margin-top: 0px;
         position:relative;
 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
     }
     .container {
-        margin-left: 380px;
         margin-top: 0px;
     }
 
     .container img {
-        margin-left: 100px;
         margin-top: 0px;
         margin-bottom: 0px;
+
 
     }
     /*Menu inicial*/
@@ -138,23 +134,6 @@
         font-family: caminhos;
         font-size: 25px;
         color: white;
-        margin-left: 160px;
-        text-decoration: none;
-    }
-
-    a.eng {
-        font-family: caminhos;
-        font-size: 25px;
-        color: white;
-        margin-left: 160px;
-        text-decoration: none;
-    }
-
-    a.cam {
-        font-family: caminhos;
-        font-size: 25px;
-        color: white;
-        margin-left: 110px;
         text-decoration: none;
     }
 
@@ -167,7 +146,6 @@
         transform: scale(1.04);
         transition: all 0.5s ease-in-out;
         align-items: center;
-        padding-left: 5px;
 
     }
 
@@ -176,7 +154,6 @@
         transition: all 0.3s ease-in-out;
         text-shadow: 1px 1px 2px rgb(174, 112, 255);
         align-items: center;
-        padding-left: 5px;
 
     }
 
@@ -191,17 +168,11 @@
         transform: scale(1.0);
         transition: all 0.3s ease-in-out;
         text-shadow: 1px 1px 2px rgb(103, 189, 182);
-        padding-left: 5px;
-    }
-
-    .barra {
-        margin-left: 390px;
     }
 
     /*redes*/
     .icones {
         padding-top: 15px;
-        margin-left: 550px;
     }
 
     .icones img {
@@ -213,5 +184,18 @@
     .icones img:hover {
         transition: all 0.3s ease-in-out;
         padding-bottom: 11px;  
-          }
+          
+    }
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+#menu p{
+    margin: 20px 0 0 0 !important;
+}
+
 }
