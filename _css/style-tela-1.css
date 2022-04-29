@@ -25,7 +25,7 @@
 .global{
     align-items: center;
     margin-bottom: 10px;
-    margin-top: 500px;
+    margin-top: 150px;
     position:absolute;
     width: 99%;
     display: flex;
@@ -47,6 +47,10 @@
     justify-content: center;
     align-items: center;
     margin-top: 2vh;
+}
+.logo{
+    margin-bottom: -13vh;
+    width: 45vh;
 }
 
     /*Menu inicial*/
@@ -102,13 +106,14 @@
         background-position: center;
         overflow: hidden;
         padding-bottom: 90px;
+        padding-top: 0px;
+
     }
     .global{
         align-items: center;
         margin-bottom: 0px;
         margin-top: 0px;
         position:relative;
-
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -121,11 +126,14 @@
 
     .container img {
         margin-top: 0px;
-        margin-bottom: 0px;
-        
-
-
+        margin-bottom: 0vh;
     }
+
+    .logo{
+        margin-bottom: -13vh;
+        max-width: 100vh;
+    }
+
     /*Menu inicial*/
     nav {
         padding-top: 0px;
@@ -158,6 +166,8 @@
         color: rgb(52, 0, 100);
 
     }
+
+
 
     /*redes*/
     .icones {
