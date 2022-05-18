@@ -1,0 +1,47 @@
+@font-face {
+
+    font-family: gothamblack;
+    src: url(/_fonts/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: principal;
+    src: url(/_fonts/GothamLight.ttf)
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+
+}
+
+body{
+    background-color: rgb(229, 200, 255);
+}
+
+.botaovoltar {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 100px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1000;
+    background-image: url(/_imagens/botaovoltar.png);
+}
+
+
+
+header h1{
+    font-size: 40pt;
+    font-family: gothamblack;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(148, 76, 154);
+    padding: 20px;
+}
