@@ -17,8 +17,7 @@
 
 }
 
-body{
-}
+
 
 .botaovoltar {
     position: fixed;
@@ -36,7 +35,7 @@ body{
 
 
 
-header h1{
+header h1 {
     font-size: 4vh;
     font-family: gothamblack;
     text-align: center;
@@ -45,92 +44,246 @@ header h1{
     padding: 20px;
 }
 
-.banner{
+p {
+    margin-top: 4vh;
+}
+
+.banner {
     width: 100%;
 }
 
-.retangulo1{
+.retangulo1 {
     padding: 10vh;
     display: flex;
     align-content: center;
     align-items: center;
-    margin-left: 15vh;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
-.retangulo1 img{
-    width: 50%;
-}
 
-.texto1{
-  
+
+.texto1 {
+
     color: #fff;
     width: 40vh;
     background-color: rgb(93, 35, 99);
     padding: 15vh;
     font-size: 3vh;
 }
-.retangulo1{
+
+.retangulo1 {
     padding: 10vh;
     display: flex;
     align-content: center;
     align-items: center;
-    margin-left: 15vh;
-    margin-right: auto; 
+    margin-right: auto;
     width: 100%;
+    background-color: #f9f1ff;
 }
 
 
-.retangulo2 img{
-    width: 50%;
+.retangulo2 {
+    width: 100%;
+    display: flex;
 }
 
-.texto2{
-  
-    color:  rgb(81, 30, 87);
+.texto2 {
+
+    color: rgb(255, 255, 255);
     width: 70vh;
     background-color: #00b8a4;
-    padding: 15vh;
+    padding-top: 25vh;
+    padding-left: 17vh;
+    padding-right: 30vh;
     font-size: 3vh;
+
 }
-a{
-	text-decoration: none;
+
+a {
+    text-decoration: none;
     width: 5vh;
 }
-.vejamais{
+
+.vejamais {
+    color: #fff;
     margin-top: 5vh;
     font-size: 4vh;
-    padding: 1vh;
-    background-color: rgba(255, 255, 255, 0.733);
+    padding: 2vh;
+    background-color: rgb(3, 95, 77);
     width: 19vh;
     border-radius: 12px;
 }
 
-.retangulo3{
+.retangulo3 {
     align-items: center;
-    width: 5vh;
+    background-color: rgb(229, 248, 247);
 }
 
-.texto3{
-  
-    color:  rgb(11, 138, 131);
+video {
+    background-color: #a368a0;
+}
+
+.texto3 {
+
+    color: rgb(11, 138, 131);
     width: 100vh;
-    background-color: rgb(255, 255, 255);
-    padding: 15vh;
+    padding: 5vh;
     font-size: 3vh;
     margin-left: auto;
     margin-right: auto;
-    width: ;
 }
-a{
-	text-decoration: none;
+
+a {
+    text-decoration: none;
     width: 5vh;
 }
-.vejamais2{
-    margin-top: 5vh;
-    font-size: 4vh;
+
+
+.form {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10vh;
+    background-color: #662f77;
+}
+
+.form button:hover,
+.form button:focus {
+    outline: none;
+}
+
+.emailnome {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+
+}
+
+label {
+    font-family: principal;
+    font-size: 2.5vh;
+    color: #fff;
+}
+
+input {
+    font-family: principal;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 50vh;
+    height: 6vh;
+    border-radius: 20px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 2.5vh;
+
+}
+
+#message {
+    font-family: principal;
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 80vh;
+    height: 40vh;
+    border-radius: 20px;
+    margin-right: 15vh;
+}
+
+button {
     padding: 1vh;
-    background-color: rgb(255, 255, 255);
-    width: 19vh;
-    border-radius: 12px;
+    width: 20vh;
+    border-radius: 25px;
+}
+
+textarea:focus,
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+footer {
+    font-family: principal;
+    text-align: center;
+    font-size: 2vh;
+    padding: 4vh;
+}
+
+@media (max-width:1024px) {
+
+    .retangulo1 img{
+        width: 40vw;
+    }
+
+    .retangulo2{
+        height: 70vh;
+        overflow: hidden;
+
+    }
+    .texto2{
+        padding-top: 5vh;
+        overflow: hidden;
+    }
+
+    input {
+        font-family: principal;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        width: 25vw;
+        height: 6vh;
+        border-radius: 20px;
+        text-align: left;
+        color: rgb(0, 0, 0);
+        font-size: 2.5vh;
+    }
+
+    .msg {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 35vw;
+        margin-right: 10vw;
+       
+    }
+    
+    #message {
+    font-family: principal;
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 35vw;
+    height: 25vh;
+    border-radius: 20px;
+   
+  
+}
+
+label {
+    font-family: principal;
+    font-size: 2.5vh;
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    align-items: center;
+}
+
+}
+
+@media (max-width:768px) {
+    
 }
