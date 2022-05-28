@@ -318,8 +318,7 @@ footer {
         padding: 0;
     }
 
-    .retangulo1 {
-       
+    .retangulo1 {  
         flex-direction: column;
         margin-right: auto;
         width: 100%;
@@ -327,11 +326,12 @@ footer {
         background-color: #f9f1ff;
         padding-left: 0px;
         margin-bottom: 0vh;
+        overflow: hidden;
     }
 
     .retangulo1 img{
         width: 50vh;
-
+        overflow: hidden;
     }
 
     figcaption {
@@ -343,6 +343,7 @@ footer {
         padding: 5vh;
         font-size: 3vh;
         opacity: 1;
+        overflow: hidden;
     }
 
     .retangulo2{
@@ -352,10 +353,10 @@ footer {
     }
 
     .texto2 {
-        width: 75vw;
-        height: 50vh;
+        width: 65vw;
+        height: 60vh;
         overflow: hidden;
-        padding-top: 5vh;
+        padding-top: 18vh;
         padding-bottom:30vh ;
         margin-left: -10vw;
     }
