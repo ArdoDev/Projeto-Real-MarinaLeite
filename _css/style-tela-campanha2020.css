@@ -134,7 +134,7 @@ video {
 
     color: rgb(11, 138, 131);
     width: 100vh;
-    padding: 5vh;
+    padding: 10vh;
     font-size: 3vh;
     margin-left: auto;
     margin-right: auto;
@@ -326,22 +326,24 @@ footer {
         background-color: #f9f1ff;
         padding-left: 0px;
         margin-bottom: 0vh;
+    
         overflow: hidden;
     }
 
     .retangulo1 img{
-        width: 50vh;
+        width: 45vh;
         overflow: hidden;
     }
 
     figcaption {
-        margin-top: -10vh;
+        margin-top: 0vh;
         color: #fff;
         width: 40vh;
         height: 40vh;
         background-color: rgb(93, 35, 99);
-        padding: 5vh;
-        font-size: 3vh;
+        margin-top: 1vw;
+        padding: 2.5vh;
+        font-size: 2.5vh;
         opacity: 1;
         overflow: hidden;
     }
@@ -353,12 +355,22 @@ footer {
     }
 
     .texto2 {
-        width: 65vw;
+        width: 70vw;
         height: 60vh;
         overflow: hidden;
         padding-top: 18vh;
         padding-bottom:30vh ;
-        margin-left: -10vw;
+        margin-left: -15vw;
+    }
+
+    .vejamais {
+        color: #fff;
+        margin-top: 5vh;
+        font-size: 4vh;
+        padding: 3vh;
+        background-color: rgb(3, 95, 77);
+        width: 19vh;
+        border-radius: 12px;
     }
 
     video{
