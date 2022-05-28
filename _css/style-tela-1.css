@@ -10,24 +10,132 @@
     src: url(../_fonts/GothamBook.ttf);
 }
 
-@media (min-width: 320px) {
+
+/*corpo do site*/
+body {
+    background-color: rgba(0, 0, 0, 0.705);
+    background-image: url(../_imagens/foto-fundotext.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    padding-bottom: 90px;
+    padding-top: 0px;
+
+}
+
+.logo {
+    margin-bottom: -19vh;
+    width: 40vh;
+}
+
+.global {
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.container {
+    margin-top: 0px;
+}
+
+.container img {
+    margin-top: 0px;
+    margin-bottom: 0vh;
+}
+
+
+/*Menu inicial*/
+nav {
+    padding-top: 0px;
+}
+
+a.leg {
+    font-family: caminhos;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+li:hover {
+    transform: scale(1.04);
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+
+}
+
+a.leg:hover {
+    transform: scale(1.0);
+    transition: all 0.3s ease-in-out;
+    text-shadow: 2px 2px 2px rgb(91, 59, 133);
+    align-items: center;
+    color: rgb(240, 203, 232);
+
+}
+
+/*redes*/
+.icones {
+    padding-top: 15px;
+}
+
+.icones img {
+    padding: 15px;
+    align-items: center;
+    width: 35px;
+}
+
+.icones img:hover {
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 11px;
+
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+
+}
+
+#menu p {
+    margin: 20px 0 0 0 !important;
+    font-size: 1px;
+}
+
+p{
+    font-size: 5pt;
+}
+
+
+
+
+@media (max-width: 425px) {
     body {
         background-color: rgba(0, 0, 0, 0.705);
-        background-image: url(../_imagens/foto-fundo-cell.png);
+        background-image: url(../_imagens/foto-fundo-cell2.png);
         background-repeat: no-repeat;
-        background-position: center;
-        overflow: hidden;
-        width: 100%;
-        padding-top: 100px;
-        padding-bottom: 780px;
+        overflow: hidden;   
     }
 
     .global {
-        align-items: center;
         margin-bottom: 10px;
-        margin-top: 20vh;
-        position: absolute;
-        width: 99%;
+        margin-top: 15vh !important;
+        margin-left: 8vw;
+        width: 80vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -35,7 +143,7 @@
     }
 
     .container {
-        width: 99%;
+        width: 50vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -51,8 +159,9 @@
     }
 
     .logo {
-        margin-bottom:-11vh;
-        width: 25vh;
+        margin-bottom: -18vh !important;
+        margin-top: -5vh;
+        width: 5vh ;
     }
 
     /*Menu inicial*/
@@ -62,7 +171,8 @@
 
     a.leg {
         font-family: caminhos;
-        font-size: 42px;
+        font-size: 3vh;
+        text-align: center;
         color: white;
         text-decoration: none;
         font-weight: lighter;
@@ -88,135 +198,35 @@
 
     /*redes*/
     .icones {
-        padding-top: 15px;
+        padding-top: 0px;
     }
 
     .icones img {
-        width: 80px;
+        width: 25px;
         padding: 10px;
         align-items: center;
     }
 
-    @media (max-width: 768px) {
-        .global {
-            align-items: center;
-            margin-bottom: 0px;
-            margin-top: 15vh;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
+    .barra img{
+        width:35vh;
+    }
+}
 
-        }
+@media (max-width: 768px) {
+    .global {
+        align-items: center;
+        margin-bottom: 0px;
+        margin-top: 1vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
 
-    @media (min-width: 1024px) {
-
-        /*corpo do site*/
-        body {
-            background-color: rgba(0, 0, 0, 0.705);
-            background-image: url(../_imagens/foto-fundotext.png);
-            width: 100%;
-            background-repeat: no-repeat;
-            background-position: center;
-            overflow: hidden;
-            padding-bottom: 90px;
-            padding-top: 0px;
-
-        }
-
-        .logo {
-            margin-bottom:-26vh;
-            width: 55vh;
-        }
-        .global {
-            align-items: center;
-            margin-bottom: 0px;
-            margin-top: 0px;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-
-        }
-
-        .container {
-            margin-top: 0px;
-        }
-
-        .container img {
-            margin-top: 0px;
-            margin-bottom: 0vh;
-        }
-
- 
-        /*Menu inicial*/
-        nav {
-            padding-top: 0px;
-        }
-
-        a.leg {
-            font-family: caminhos;
-            font-size: 25px;
-            color: white;
-            text-decoration: none;
-        }
-
-        li {
-            margin-bottom: 15px;
-            list-style: none;
-        }
-
-        li:hover {
-            transform: scale(1.04);
-            transition: all 0.5s ease-in-out;
-            align-items: center;
-
-        }
-
-        a.leg:hover {
-            transform: scale(1.0);
-            transition: all 0.3s ease-in-out;
-            text-shadow: 1px 1px 1px rgb(91, 59, 133);
-            align-items: center;
-            color: rgb(194, 5, 153);
-
-        }
-
-
-
-        /*redes*/
-        .icones {
-            padding-top: 15px;
-        }
-
-        .icones img {
-            padding: 15px;
-            align-items: center;
-            width: 35px;
-        }
-
-        .icones img:hover {
-            transition: all 0.3s ease-in-out;
-            padding-bottom: 11px;
-
-        }
-
-        #menu {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 5vh;
-            margin-bottom: 6vh;
-        }
-
-        #menu p {
-            margin: 20px 0 0 0 !important;
-        }
-
+    .logo {
+        margin-bottom: -15vh;
+        width: 40vh;
     }
 
 }

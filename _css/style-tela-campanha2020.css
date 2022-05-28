@@ -17,8 +17,6 @@
 
 }
 
-
-
 .botaovoltar {
     position: fixed;
     width: 100px;
@@ -60,15 +58,18 @@ p {
     margin-right: auto;
 }
 
-
+.retangulo1 img {
+    width: 40vw;
+}
 
 .texto1 {
 
     color: #fff;
-    width: 40vh;
+    width: 40vw;
     background-color: rgb(93, 35, 99);
     padding: 15vh;
     font-size: 3vh;
+    margin-left: 6vw;
 }
 
 .retangulo1 {
@@ -81,6 +82,12 @@ p {
     background-color: #f9f1ff;
 }
 
+figcaption {
+    opacity: 0;
+    height: 0vh;
+    margin: 0;
+    padding: 0;
+}
 
 .retangulo2 {
     width: 100%;
@@ -216,6 +223,7 @@ input:focus {
 
 
 footer {
+    color: #a368a0;
     font-family: principal;
     text-align: center;
     font-size: 2vh;
@@ -224,16 +232,26 @@ footer {
 
 @media (max-width:1024px) {
 
-    .retangulo1 img{
+    .retangulo1 {
+        padding-left: 10vw;
+    }
+
+    .retangulo1 img {
         width: 40vw;
     }
 
-    .retangulo2{
+    .retangulo2 {
         height: 70vh;
         overflow: hidden;
 
     }
-    .texto2{
+
+    video {
+
+        margin-top: -12vh;
+    }
+
+    .texto2 {
         padding-top: 5vh;
         overflow: hidden;
     }
@@ -256,34 +274,180 @@ footer {
         text-align: center;
         width: 35vw;
         margin-right: 10vw;
-       
     }
-    
+
     #message {
-    font-family: principal;
-    font-size: 3vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: 35vw;
-    height: 25vh;
-    border-radius: 20px;
-   
-  
-}
+        font-family: principal;
+        font-size: 3vh;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 35vw;
+        height: 25vh;
+        border-radius: 20px;
+    }
 
-label {
-    font-family: principal;
-    font-size: 2.5vh;
-    color: #fff;
-    text-align: center;
-}
+    label {
+        font-family: principal;
+        font-size: 2.5vh;
+        color: #fff;
+        text-align: center;
+    }
 
-button {
-    align-items: center;
-}
+    button {
+        align-items: center;
+    }
+
+    footer {
+        color: #a368a0;
+        font-family: principal;
+        text-align: center;
+        font-size: 2vh;
+        padding: 4vh;
+    }
 
 }
 
 @media (max-width:768px) {
+    body{
+        color:#f9f1ff;;
+    }
+    .texto1 {
+        opacity: 0;
+        height: 0vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .retangulo1 {
+       
+        flex-direction: column;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+        background-color: #f9f1ff;
+        padding-left: 0px;
+        margin-bottom: 0vh;
+    }
+
+    .retangulo1 img{
+        width: 50vh;
+
+    }
+
+    figcaption {
+        margin-top: -10vh;
+        color: #fff;
+        width: 40vh;
+        height: 40vh;
+        background-color: rgb(93, 35, 99);
+        padding: 5vh;
+        font-size: 3vh;
+        opacity: 1;
+    }
+
+    .retangulo2{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto2 {
+        width: 75vw;
+        height: 50vh;
+        overflow: hidden;
+        padding-top: 5vh;
+        padding-bottom:30vh ;
+        margin-left: -10vw;
+    }
+
+    video{
+        width: 100%;
+        height: 44vh;
+    }
+
+    .texto3{
+        width: 75vw;
+    }
+
+    .form {
+        width: 90vw;
+        display: flex;
+        align-items: left;
+        align-content: left;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8vh;
+        background-color: #662f77;
+    }
+    form,
+    .emailnome{
+        flex-direction: column;
+        align-items: left;
+        margin-right: 400vw;
+        
+
+    }
+    label {
+        font-family: principal;
+        font-size: 2.5vh;
+        color: #fff;
+        text-align: left;
+    }
+
+    input{
+    width: 75vw;
+    align-items: center;
+    }
+
+    textarea{
+        width: 350vw;
+
+    }
+
+    .msg {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-right: 0vw;
     
+    }
+
+    #message {
+        font-family: principal;
+        font-size: 3vh;
+        margin-top: 2vh;
+        padding-right: 0vh;
+        margin-bottom: 2vh;
+        margin-left: 0vw;
+        width: 75vw;
+        height: 25vh;
+        border-radius: 20px;
+    }
+
+    button{
+        align-items: center;
+        
+    }
+
+    .botaovoltar {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        bottom: 40px;
+        right: 10px;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        z-index: 1000;
+        background-image: url(/_imagens/botaovoltarcell2.png);
+    }
+    footer {
+        color: #a368a0;
+        font-family: principal;
+        text-align: center;
+        font-size: 2vh;
+        padding: 4vh;
+    }
 }
