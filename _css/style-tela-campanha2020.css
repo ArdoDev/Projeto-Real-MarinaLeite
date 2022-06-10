@@ -258,7 +258,7 @@ footer {
     }
 
     input {
-        font-family: principal;
+        font-family: 'Red Hat Display', sans-serif;
         margin-top: 1vh;
         margin-bottom: 1vh;
         width: 25vw;
@@ -270,6 +270,8 @@ footer {
     }
 
     .msg {
+        font-family: 'Red Hat Display', sans-serif;
+
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -278,7 +280,7 @@ footer {
     }
 
     #message {
-        font-family: principal;
+        font-family: 'Red Hat Display', sans-serif;
         font-size: 3vh;
         margin-top: 2vh;
         margin-bottom: 2vh;
@@ -288,7 +290,7 @@ footer {
     }
 
     label {
-        font-family: principal;
+        font-family: 'Red Hat Display', sans-serif;
         font-size: 2.5vh;
         color: #fff;
         text-align: center;
