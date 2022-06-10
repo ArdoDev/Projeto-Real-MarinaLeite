@@ -1,14 +1,5 @@
 /*fontes*/
 
-@font-face {
-    font-family: principal;
-    src: url(../_fonts/GothamLight.ttf);
-}
-
-@font-face {
-    font-family: caminhos;
-    src: url(../_fonts/GothamBook.ttf);
-}
 
 
 /*corpo do site*/
@@ -58,14 +49,14 @@ nav {
 
 #menu{
     color: white;
+    font-size: 18px;
     text-align: center;
-    font-family: caminhos;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 a {
-    font-weight: 500;
     color: white;
-    margin: 5px;
+    margin: 0px;
     list-style: none;
     text-decoration: none;
 }
@@ -79,11 +70,10 @@ a:hover {
     color: rgb(240, 203, 232);
 
 }
-
-/*redes*/
-.icones {
-    padding-top: 15px;
+p{
+    margin:25px;
 }
+/*redes*/
 
 .icones {
     padding-top: 15px;
@@ -94,28 +84,14 @@ a:hover {
     padding: 15px;
     align-items: center;
     width: 25px;
+    padding-top: 5px;
 }
 
 .icones img:hover {
-    transition: all 0.3s ease-in-out;
-    padding-bottom: 11px;
-
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
-
-#menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0vh;
-    margin-bottom: 6vh;
-
-}
-
-
-
-
-
 
 @media (max-width: 425px) {
     body {
@@ -146,12 +122,11 @@ a:hover {
         align-items: center;
     }
 
-    #menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0vh;
+    #menu{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Red Hat Display', sans-serif;
     }
 
     .logo {
@@ -167,10 +142,9 @@ a:hover {
 
     #menu{
         color: white;
-    
+        
         text-align: center;
-        font-family: caminhos;
-    }
+        font-family: 'Raleway', sans-serif;    }
     
     a {
         color: white;
@@ -188,6 +162,10 @@ a:hover {
     
     }
 
+    p{
+        margin:5px;
+    }
+
     /*redes*/
     .icones {
         padding-top: 0px;
@@ -197,6 +175,7 @@ a:hover {
         width: 25px;
         padding: 5px;
         align-items: center;
+        padding-bottom: 5vh;
     }
 
     .barra img{
