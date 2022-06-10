@@ -33,7 +33,6 @@ body {
     align-items: center;
     margin-bottom: 0px;
     margin-top: 0px;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -56,26 +55,22 @@ nav {
     padding-top: 0px;
 }
 
-a{
-    font-family: caminhos;
-    font-size: 20px;
+
+#menu{
     color: white;
+    text-align: center;
+    font-family: caminhos;
+}
+
+a {
+    color: white;
+    margin: 15px;
+    list-style: none;
     text-decoration: none;
 }
 
-li {
-    margin-bottom: 15px;
-    list-style: none;
-}
 
-li:hover {
-    transform: scale(1.04);
-    transition: all 0.5s ease-in-out;
-    align-items: center;
-
-}
-
-a.leg:hover {
+a:hover {
     transform: scale(1.0);
     transition: all 0.3s ease-in-out;
     text-shadow: 2px 2px 2px rgb(91, 59, 133);
@@ -97,7 +92,7 @@ a.leg:hover {
 .icones img {
     padding: 15px;
     align-items: center;
-    width: 35px;
+    width: 25px;
 }
 
 .icones img:hover {
@@ -111,15 +106,12 @@ a.leg:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 0vh;
     margin-bottom: 6vh;
 
 }
 
-#menu p {
-    margin: 20px 0 0 0 !important;
-    font-size: 1px;
-}
+
 
 p{
     font-size: 5pt;
@@ -133,6 +125,8 @@ p{
         background-color: rgba(0, 0, 0, 0.705);
         background-image: url(../_imagens/foto-fundo-cell2.png);
         background-repeat: no-repeat;
+        width: 120%;
+        height: 100%;
         overflow: hidden;   
     }
 
@@ -174,31 +168,27 @@ p{
         padding-top: 20px;
     }
 
-    a {
-        font-family: caminhos;
-        font-size: 2vh;
-        text-align: center;
+    #menu{
         color: white;
-        text-decoration: none;
-        font-weight: lighter;
+    
+        text-align: center;
+        font-family: caminhos;
     }
-
-    li {
-        margin-bottom: 15px;
+    
+    a {
+        color: white;
+        margin: 15px;
         list-style: none;
     }
-
-    li:hover {
-        transform: scale(1.05);
-        transition: all 0.5s ease-in-out;
-        align-items: center;
-    }
-
-    a.leg:hover {
-        transform: scale(1.2);
+    
+    
+    a:hover {
+        transform: scale(1.0);
         transition: all 0.3s ease-in-out;
-        text-shadow: 2px 2px 1px rgb(214, 183, 255);
+        text-shadow: 2px 2px 2px rgb(91, 59, 133);
         align-items: center;
+        color: rgb(240, 203, 232);
+    
     }
 
     /*redes*/
@@ -208,7 +198,7 @@ p{
 
     .icones img {
         width: 25px;
-        padding: 10px;
+        padding: 2px;
         align-items: center;
     }
 
@@ -221,7 +211,7 @@ p{
     .global {
         align-items: center;
         margin-bottom: 0px;
-        margin-top: 1vh;
+        margin-top: 0vh;
         position: relative;
         display: flex;
         flex-direction: column;
