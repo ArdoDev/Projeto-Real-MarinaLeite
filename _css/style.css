@@ -63,8 +63,9 @@ nav {
 }
 
 a {
+    font-weight: 500;
     color: white;
-    margin: 15px;
+    margin: 5px;
     list-style: none;
     text-decoration: none;
 }
@@ -112,10 +113,6 @@ a:hover {
 }
 
 
-
-p{
-    font-size: 5pt;
-}
 
 
 
@@ -177,7 +174,7 @@ p{
     
     a {
         color: white;
-        margin: 15px;
+        margin: 3px;
         list-style: none;
     }
     
@@ -198,7 +195,7 @@ p{
 
     .icones img {
         width: 25px;
-        padding: 2px;
+        padding: 5px;
         align-items: center;
     }
 
