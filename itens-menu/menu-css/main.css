@@ -6,20 +6,22 @@
 }
 
 /*topo texto*/
-.topo{
-    background-color: #f5ceff;
+.topo {
     padding: 60px;
 }
-.topo h1{
+
+.topo h1 {
     font-size: 1.8rem;
     font-family: 'Raleway', sans-serif;
-    color: #2e003b;
+    color: #270031;
 }
-.topo p{
+
+.topo p {
     margin-top: 0.5rem;
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
 }
+
 /*botão para voltar*/
 .botaovoltar {
     position: fixed;
@@ -27,7 +29,6 @@
     height: 100px;
     bottom: 40px;
     right: 40px;
-    color: #fff;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
@@ -41,12 +42,14 @@ h2.cabecalho {
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    color: white;
     background-color: rgb(148, 76, 154);
     padding: 20px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    color: #ffffff;
 }
 
-.conteudo{
+.conteudo {
     font-size: 1.8rem;
     font-family: 'Raleway', sans-serif;
     align-items: center;
@@ -90,7 +93,7 @@ input {
     text-align: center;
 }
 
-.input-file-upload input{
+.input-file-upload input {
     width: 250px;
     font-size: 10pt;
     display: flex;
@@ -105,7 +108,7 @@ button {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    
+
 }
 
 
@@ -124,6 +127,41 @@ textarea {
     width: 15rem;
 }
 
+/*Projetos*/
+a{
+    text-decoration: none;
+    color: rgb(44, 0, 42);
+}
+.projetos {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+
+.projeto {
+    padding: 5%;
+    margin-top: 5%;
+    background-color: #f5ceff;
+    border-radius: 15px;
+}
+
+.projeto:hover{
+	transition:ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+.projeto p {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5%;
+    font-size: 2vw;
+}
+
+.projeto h1 {
+    font-size: 2vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+
 /*Rodape*/
 
 .redes {
@@ -134,7 +172,7 @@ textarea {
 }
 
 .icones a {
-    padding: 15px;
+    padding: 5px;
     text-decoration: none;
 }
 
@@ -146,6 +184,7 @@ textarea {
     font-family: 'Raleway', sans-serif;
     color: white;
     padding-bottom: 25px;
+    font-size: 1.5vw;
 }
 
 .dev {
@@ -164,6 +203,11 @@ footer .dev p {
     padding: 20px;
 }
 
+.icones a img{
+    width: 4vw;
+}
+
+
 .mensagem {
     margin-top: 25px;
     width: 15rem;
@@ -172,14 +216,14 @@ footer .dev p {
 
 
 @media (max-width:785px) {
-    
+
     /*Título*/
 
     h2.cabecalho {
         font-size: 1.5rem;
         font-family: 'Raleway', sans-serif;
         text-align: center;
-        color: white;
+        color: rgb(255, 255, 255);
         background-color: rgb(148, 76, 154);
         padding: 20px;
     }
@@ -195,14 +239,14 @@ footer .dev p {
         flex-direction: column;
         text-align: center;
     }
-    
+
     /*Botão para Voltar*/
 
     .botaovoltar {
         position: fixed;
         width: 100px;
-        height:100px;
-        bottom:120px;
+        height: 100px;
+        bottom: 120px;
         right: 20px;
         color: #fff;
         border-radius: 15px;
@@ -210,7 +254,7 @@ footer .dev p {
         z-index: 1000;
         background-image: url(/_imagens/botaovoltar.png);
     }
-    
+
     /*formulário*/
 
     form {
@@ -220,23 +264,23 @@ footer .dev p {
         align-content: center;
         margin-left: auto;
         margin-right: auto;
-        padding: 10vh;
+        padding: 4vh;
         background-color: #662f77;
         font-size: 5pt;
-        
+
     }
-    
+
     form button:hover,
     form button:focus {
         outline: none;
     }
-    
+
     input {
         font-family: 'Raleway', sans-serif;
-        width: 100%; 
+        width: 100%;
         height: 2rem;
     }
-    
+
     .input-file-upload {
         width: 250px;
         display: flex;
@@ -244,7 +288,7 @@ footer .dev p {
         align-items: center;
         align-content: center;
     }
-    
+
     button {
         margin-top: 25px;
         padding: 10px;
@@ -257,9 +301,37 @@ footer .dev p {
         height: 20rem;
         font-family: 'Raleway', sans-serif;
         font-size: 11pt;
-        
+
+    }
+
+    /*Projetos*/
+
+    .projeto h1 {
+        font-size: 5vw;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .projetos {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 5%;
     }
     
+    .projeto {
+        padding: 15%;
+        margin-top: 5%;
+        background-color: #f5ceff;
+        border-radius: 15px;
+    }
+    
+    .projeto p {
+        font-family: 'Raleway', sans-serif;
+        margin-top: 5%;
+        font-size: 4vw;
+    }
+
+
+
     .redes p {
         background-color: rgb(148, 76, 154);
         text-align: center;
@@ -269,7 +341,7 @@ footer .dev p {
         margin-bottom: 15px;
     }
 
-    .redes img{
+    .redes img {
         width: 30px;
     }
 
@@ -283,7 +355,11 @@ footer .dev p {
         padding: 20px;
         font-size: 8.8pt;
     }
-    
+
+    .icones a img{
+        width: 10vw;
+        align-items: center;
+    }
 
 
 }
