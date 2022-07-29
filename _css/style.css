@@ -28,7 +28,7 @@ body {
 .global {
     align-items: center;
     margin-bottom: 0px;
-    margin-top: 80px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -110,7 +110,7 @@ p{
 
     .global {
         margin-bottom: 10px;
-        margin-top: 15vh !important;
+        margin-top: 10vh !important;
         margin-left: 10%;
         width: 80vw;
         display: flex;

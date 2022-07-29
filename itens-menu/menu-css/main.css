@@ -8,18 +8,52 @@
 /*topo texto*/
 .topo {
     padding: 60px;
+    margin-left: 15vw;
+    width: 60vw;
+    display: inline-block;
+}
+
+.topo-sobre{
+    padding: 0px;
+    width: 100vw;
+    display: inline-flex;
+    margin-left: -4vw;
+
+}
+.texto{
+    padding: 50px;
+    padding-bottom: 15px;
+    padding-right:5vw ;
+    width:200vw;
+    margin-left: 0px;
+    background-color: #f5ceff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.img-marina-recorte {
+ 
+    width: 80vw;
+    padding-top: 0px;
+    display: flex;
+    margin-left: 0px;
 }
 
 .topo h1 {
     font-size: 1.8rem;
     font-family: 'Raleway', sans-serif;
     color: #270031;
+    display: block;
+    float: left;
 }
 
 .topo p {
     margin-top: 0.5rem;
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
+    display: block;
+    float: left;
 }
 
 /*botão para voltar*/
@@ -58,6 +92,12 @@ h2.cabecalho {
     background-color: #662f77;
     color: #fff;
 }
+
+/*main*/
+main{
+    margin-bottom: -3px;
+}
+
 
 /*Formulário*/
 
@@ -128,10 +168,11 @@ textarea {
 }
 
 /*Projetos*/
-a{
+a {
     text-decoration: none;
     color: rgb(44, 0, 42);
 }
+
 .projetos {
     padding-left: 10%;
     padding-right: 10%;
@@ -145,8 +186,8 @@ a{
     border-radius: 15px;
 }
 
-.projeto:hover{
-	transition:ease-in-out 0.3s;
+.projeto:hover {
+    transition: ease-in-out 0.3s;
     transform: scale(1.05);
 }
 
@@ -203,7 +244,8 @@ footer .dev p {
     padding: 20px;
 }
 
-.icones a img{
+
+.icones a img {
     width: 4vw;
 }
 
@@ -215,7 +257,37 @@ footer .dev p {
 
 
 
-@media (max-width:785px) {
+@media (max-width:425px) {
+
+    /*Topo*/
+    .topo {
+        padding: 60px;
+        margin-left: 3vw;
+        width: 60vw;
+        display: inline-block;
+    }
+
+    .topo-sobre{
+        padding: 0px;
+        width: 110vw;
+        display: inline-block;
+    }
+    .texto{
+        padding: 35px;
+        padding-bottom: 15px;
+        width: 89vw;
+        background-color: #f5ceff;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+    }  
+    
+    .img-marina-recorte {
+        width:90vw;
+        padding-top: 0px;
+        display: flex;
+        margin-left: 60px;
+    }
+    
 
     /*Título*/
 
@@ -316,14 +388,14 @@ footer .dev p {
         padding-right: 10%;
         margin-bottom: 5%;
     }
-    
+
     .projeto {
         padding: 15%;
         margin-top: 5%;
         background-color: #f5ceff;
         border-radius: 15px;
     }
-    
+
     .projeto p {
         font-family: 'Raleway', sans-serif;
         margin-top: 5%;
@@ -356,7 +428,7 @@ footer .dev p {
         font-size: 8.8pt;
     }
 
-    .icones a img{
+    .icones a img {
         width: 10vw;
         align-items: center;
     }
