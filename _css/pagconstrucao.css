@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(35, 0, 44);
+  background-image: url(../_imagens/PagCronstruBack.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.ContainerPagConst {
+  color: rgb(106, 170, 243);
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 40vw;
+  text-align: center;
+  background-color: rgb(52, 0, 65);
+  padding: 4vw;
+  border-radius: 2vw;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.248);
+}
+
+.ContainerPagConst img {
+  width: 20vw;
+  text-align: center;
+}
+
+a {
+  color: rgb(106, 170, 243);
+  letter-spacing: 0.3vw;
+  text-decoration: none;
+  background-color: rgb(84, 0, 105);
+  padding: 0.8vw;
+  border-radius: 1vw;
+  text-align: center;
+}
+
+a:hover{
+    color: rgb(52, 0, 65);
+    background-color: rgb(55, 89, 111);
+    transition: ease-in-out 0.25s;
+}
+
+@media (max-width:500px) {
+    .ContainerPagConst {
+        font-size: 3vw;
+        top: 20%;
+        left: 15%;
+        width: 60vw;
+
+}
+.ContainerPagConst img {
+    width: 40vw;
+    text-align: center;
+  }
+  body {
+    background-color: rgb(35, 0, 44);
+    background-image: none;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  
+
+}
